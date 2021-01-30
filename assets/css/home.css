@@ -229,7 +229,6 @@ body{
   box-shadow: var(--github);
 } 
 
-
 .socialicon.linkedin:after {
   background-color: #0e76a8;
   box-shadow: var(--linkedin);
