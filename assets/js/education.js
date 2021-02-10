@@ -5,14 +5,14 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Data Science Python",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/specializations/data-science-python",
   },
   {
-    title: "Cryptography",
+    title: "Docker Mastery",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.udemy.com/course/docker-mastery/",
   },
   {
     title: "Machine Learning",

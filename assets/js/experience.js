@@ -4,32 +4,32 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/NextOrbit_Logo_Image.svg",
+    place: "NextOrbit Platforms and Solutions",
+    time: "Nov 2018 - present < 2 Years 3 Months >",
+    desp: "<li>Implemented a custom reverse index text similarity algorithm for the company’s searching needs.</li> <li>Developed Pipelines for data ingestion in the form of a data lake. The prime challenge here was to build an ecosystem that is capable of ingesting and retrieving large amounts of data in the order of TerraBytes in near real-time.</li> <li> An integral part of the platform engineering team handled functions like Backend web development, Testing, and was part of the entire build and release cycle. </li><li> Built extensive monitoring pipelines to ensure the continuous availability of various services by leveraging orchestration container software like DOCKER, DOCKER-COMPOSE, KUBERNETES.</li><li> Worked directly with clients and provided business intelligence reports using Tableau</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Information Technology Analyst",
+    cardImage: "assets/images/experience-page/ibm_logo.png",
+    place: "IBM India",
+    time: " Dec 2017 - Oct 2018 < 11 Months >",
+    desp: "<li>Performed Data Cleaning & Data Normalization </li><li>Worked Extensively on Tableau and  IBM Watson Analytics to derive comprehensive reports about IT Operational Data Like Incident Tickets, Service Request, Problem Requests, and Change Requests. Most Reports Assessed the KPIs of the Account like SLA, Staffing Plan, and Incident Management. </li><li>Worked Extensively on Tableau and  IBM Watson Analytics to derive comprehensive reports about IT Operational Data Like Incident Tickets, Service Request, Problem Requests, and Change Requests. Most Reports Assessed the KPIs of the Account like SLA, Staffing Plan, and Incident Management. </li> <li> Identifying  Automation Opportunities</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Research Associate",
+    cardImage: "assets/images/experience-page/amc_logo.png",
+    place: "AMC Engineering College",
+    time: " June 2016 - June 2017 ",
+    desp:"<li>Statistical Study of Treated Waste Water Using  Nano Technology</li>",
   },
 ];
 
 const showCards2 = () => {
   let output = "";
   exp.forEach(
-    ({ title, cardImage, place, time, desp }) =>
+    ({ title, cardImage, place, time,desp }) =>
       (output += `        
       <ul>
       <li class="card card1">
@@ -40,11 +40,11 @@ const showCards2 = () => {
               <h3>${title}</h3>
             </div>
             <p class="meta">
-              <span class="pre-heading">${place}</span><br>
-              <span class="author">${time}</span>
+              <span class="pre-heading">${place}</span><br><br>
+              <span class="author"><h5>${time}</h5></span><br>
             </p>
             <ol>
-              ${desp}
+              <h6>${desp}</h6>
             </ol>
           </header>
         </article>
@@ -62,41 +62,24 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
+    title: "Global Program",
     cardImage: "assets/images/experience-page/1.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for teaching Spoken English to Teenagers",
   },
   {
-    title: "StudentCode-in 2020",
+    title: "Geeks For Geeks",
     cardImage: "assets/images/experience-page/2.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Created Premium Membership to their Job Portal",
   },
   {
-    title: "PClub Summer Of Code 2020",
+    title: "HackRank",
     cardImage: "assets/images/experience-page/3.jpg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "",
   },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-  {
-    title: "30 DaysofFlutter",
-    cardImage: "assets/images/experience-page/5.jpg",
-    description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
-  },
-  {
-    title: "Garuda Hacks",
-    cardImage: "assets/images/experience-page/6.jpg",
-    description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
-  },
+  
 ];
 
 const showCards = () => {
@@ -117,8 +100,7 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 
 // Mentorship Card
-
-
+/*
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
@@ -161,3 +143,4 @@ const showCards3 = () => {
   mentorshipcards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
+*/
